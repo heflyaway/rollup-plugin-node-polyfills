@@ -53,6 +53,9 @@ export function builtinsResolver(opts: NodePolyfillsOptions) {
   libs.set('fs', EMPTY_PATH);
   libs.set('crypto', EMPTY_PATH);
 
+  // 20200709增加perf_hooks
+  libs.set('perf_hooks', EMPTY_PATH);
+
   if (opts.fs) {
     libs.set('fs', require.resolve('../polyfills/browserify-fs'));
   }

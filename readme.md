@@ -1,8 +1,8 @@
-rollup-plugin-node-polyfills
+fork from rollup-plugin-node-polyfills
 ===
 
 ```
-npm install --save-dev rollup-plugin-node-polyfills
+npm install --save-dev rollup-plugin-node-polyfills2
 ```
 
 Allows the node builtins to be `require`d/`import`ed.
@@ -39,6 +39,7 @@ The following modules include ES6 specific version which allow you to do named i
 - readline∆
 - repl∆
 - tls∆
+- perf_hooks∆
 - fs˚
 - crypto˚
 
